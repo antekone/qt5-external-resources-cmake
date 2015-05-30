@@ -1,0 +1,20 @@
+Qt5 External Resource support for CMake
+
+How to use
+==========
+
+Step 1. Clone this repo:
+
+    $ git clone https://github.com/antekone/qt5-external-resources-cmake.git
+
+Step 2. Include the CMake script inside your CMakeLists.txt:
+
+    ...
+    include(/path/to/Qt5ExternalResources.cmake)
+    ...
+
+Step 3. Use the `qt5_add_external_resources` function where needed:
+
+    qt5_add_external_resources(output.rcc input.qrc)
+
+Step 4. Consult examples/hello-world if you encounter any problems.

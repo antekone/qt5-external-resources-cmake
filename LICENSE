@@ -1,0 +1,4 @@
+This package is based on the code from CMake, so I guess it should use the same
+license as CMake itself (BSD 3-clause).
+
+http://www.cmake.org/licensing/
